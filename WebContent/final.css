@@ -1,0 +1,100 @@
+body{
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/201911/770Pix_433Pix-VIJ-1_0-x433.png?bmlGH5BIE0GvNEOqcSYlbQS.6Upgd.Mt");
+    background-size: cover;
+    margin:0;
+    padding: 0%;
+    font-family: sans-serif;
+   
+}
+img{
+    background-repeat: no-repeat;
+    height: 88.5%;
+    width: 100%;
+    opacity: 0.6;
+}
+div.tc{
+    color:  #070505;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%) 
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  *{
+      margin:0;
+      padding:0;
+  }
+nav{
+    width:100%;
+    height:80px;
+    background-color:#34495e;
+    opacity:0.9;
+    line-height: 80px;
+    color: whitesmoke;
+
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+nav ul li a
+{
+  text-decoration: none;
+  color:#fff;
+  padding:30px;
+}
+nav ul li:hover{
+background-color:#1abc9c;
+color: black;
+}
+a{
+  text-decoration:none;
+  color:White;
+}
+.main{
+    left: 60%;
+}
+.s{
+    position: relative;
+    padding: 0 60px 0 20px;
+    transform: translate(-10%,+30%);
+    border-radius: 50px;
+    border:3px solid #32e17c;
+    width: 250px;
+    height: 45px;
+    display: flex;
+    outline: none;
+}
+i{ 
+    background-color: black;
+    line-height: 40px;
+    right: 5px;
+    top: 10px;
+    transform: translate(+444%,-69%);
+     padding:  10px;
+    border-radius: 50px;
+    border:3px solid #32e17c;
+   flex: 1px;
+
+}
+.data{
+  position:flex;
+  left:10%;
+  width:75%;
+  height:75%;
+  padding:20px;
+  border:5px solid black;
+  background:none;
+  position:relative;
+  align:center;
+  font-weigth:200%;
+}

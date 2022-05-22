@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+body{
+    margin:0;
+    padding: 0%;
+    font-family: sans-serif;
+    background-image:url("https://st3.depositphotos.com/3343629/12861/i/950/depositphotos_128617812-stock-photo-students-graduate-cap-throwing-in.jpg");
+    background-size: cover;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgba(0,0,0,4);
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"],.box input[type="email"]
+{
+    border: 0 ;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid #0367fd;;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25px;
+
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus,.box input[type="email"]:focus
+{
+    width: 270px;
+    border-color: #ffc400ec;
+}
+.box input[type="submit"]
+{
+    border: 0 ;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid #ffc400ec;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25px;
+    cursor: pointer;
+
+}
+.box input[type="submit"]:hover{
+    background: #ffc400ec;
+    color:black;
+    font-weight:bold;
+    width:150px;
+}
+.td{
+    text-decoration: none;
+    color: green;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.username_error,.password_error{
+    margin: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #c62828;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    display: none;
+}

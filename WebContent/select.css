@@ -1,0 +1,166 @@
+
+.two{
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    left: 75%;
+    top: 13%;
+}
+.one{
+  width: 1000px;
+  height: 800px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+body{
+    background-image: url("https://icon2.cleanpng.com/20180822/gte/kisspng-product-design-point-angle-puantor-teknoloji-bg-baclar-anaokulu-lkizle-5b7d1de9e7f629.3469013215349263139501.jpg");
+    font-family: sans-serif;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 70%;
+    left: 83%;
+    transform: translate(-50%,-50%);
+    background:rgba(0,0,0,4);
+    text-align: center;
+    border-radius: 25px;
+}
+.box h1{
+    color: FFFACD;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0 ;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid #ffc400ec;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: FFFACD;
+    border-radius: 24px;
+    transition:0.25px;
+
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+    width: 270px;
+    border-color: #ffc400ec;
+}
+.box input[type="submit"]{
+    border: 0 ;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid #ffc400ec;
+    padding: 14px 35px;
+    outline: none;
+    color: FFFACD;
+    border-radius: 24px;
+    transition:0.25px;
+    cursor: pointer;
+
+}
+.box input[type="submit"],.box select:hover{
+    background: #ffc400ec;
+}
+.box select:hover{
+    border:3px solid blue;
+    background-color: FFFACD;
+    color:  black;
+}
+.box select
+{
+    border: 0 ;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid #ffc400ec;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: FFFACD;
+    border-radius: 24px;
+    transition:0.25px;
+
+}
+button{
+    border: 0 ;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid #ffc400ec;
+    padding: 14px 35px;
+    outline: none;
+    color: FFFACD;
+    border-radius: 24px;
+    transition:0.25px;
+    cursor: pointer;
+}
+button:hover{
+    background: #ffc400ec;
+}
+div.tc{
+    color:  #070505;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%) 
+}
+button {
+    width: auto;
+    padding: 10px 18px;
+    background-color:FFFACD;
+    text-decoration: none;
+   }
+   a{
+       text-decoration: none;
+   }
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  *{
+      margin:0;
+      padding:0;
+  }
+  
+  nav{
+      width:100%;
+      height:80px;
+      background-color:#0009;
+      opacity:0.9;
+      line-height: 80px;
+      color: FFFACD;
+  }
+  nav ul{
+      float:right;
+      margin-right:30px;
+  }
+nav ul li{
+      list-style-type: none;
+      display: inline-block;
+
+  }
+nav ul li a
+{
+    text-decoration: none;
+    color:#FFFACD;
+    padding:30px;
+}
+nav ul li:hover{
+ background-color:#f39d1a;
+}
+

@@ -1,0 +1,21 @@
+<html>
+    <heaad>
+        <meat charset="utf-8">
+        <title>Welcome</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="register.js"></script>
+    </heaad>
+    <body>
+        <form class="box" action="RegisterInsert" method="post" autocomplete="off">
+            <h1>REGISTER</h1>
+            <input type="text" name="username" placeholder="Enter Username" id="username" required>
+            <div id="username_error" name="username_error" class="username_error">*Enter valid username</div>
+            <input type="email" name="email" placeholder="Enter Emailid" id="email" required>
+            <div class="password_error">Enter valid password</div>
+            <input type="password" name="password" placeholder="Enter Password" id="password" required>
+            <input type="password" name="cpassword" placeholder="confirm Password" id="password1" required>
+            <input type="submit" name="username" value="Register" onclick="validate()">
+            <div id="td"><a href="login.html" style="color:white">Existing User?</a></div>
+        </form>
+    </body>
+</html>
